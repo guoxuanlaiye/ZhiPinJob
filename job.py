@@ -55,8 +55,6 @@ def getData(city_code=None, post_code=None):
     print("###### finish crawl....")
 
 
-
-
-
 if __name__ == '__main__':
+    # 城市代码、职位代码
     getData(city_code="101010100", post_code="100109")
